@@ -1,0 +1,39 @@
+.app-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.app-header {
+    background: linear-gradient(90deg, #0077b6, #00b4d8);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    letter-spacing: 0.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.app-header::before {
+    content: "👥";
+    font-size: 22px;
+}
+
+
+.app-main {
+    flex: 1;
+    padding: 30px 20px;
+}
+
+.app-footer {
+    background-color: #343a40;
+    color: #ced4da;
+    text-align: center;
+    font-size: 14px;
+    border-top: 1px solid #495057;
+}
